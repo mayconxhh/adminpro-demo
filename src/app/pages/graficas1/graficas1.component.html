@@ -1,1 +1,11 @@
-<p>graficas1 works!</p>
+<div class="row">
+    <ng-template ngFor let-grafico [ngForOf]="graficos" let-i="index">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <app-grafico-dona [label]="grafico.labels" [data]="grafico.data" [type]="grafico.type" [leyenda]="grafico.leyenda"></app-grafico-dona>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>
