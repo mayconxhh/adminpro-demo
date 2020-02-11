@@ -11,6 +11,7 @@ import { ShareModule } from '../shared/shared.module';
 // Temporal
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         ProgressComponent,
         PagesComponent,
         IncrementComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     imports: [
         CommonModule,
